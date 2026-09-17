@@ -111,7 +111,7 @@ const id=urlParams.get('id');
 const iframe=document.getElementById('main-iframe');
 
 if(id){
-fetch('https://allrounder2-0.pages.dev/id.json')
+fetch('https://allrounderid2.pages.dev/id.json')
 .then(res=>res.json())
 .then(data=>{
 const targetData=data.iframes.find(item=>item.id===id);
